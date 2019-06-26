@@ -1,1 +1,2 @@
-java lang quick start
+再出发 学习了java基础
+浙江大学公开课：零基础学Java语言
