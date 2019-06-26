@@ -1,0 +1,11 @@
+package hello;
+
+public class AgeStar {
+	public static void main(String[] args) {
+		final int MINOR = 35;
+		
+		System.out.println("ÇëÊäÈëÄãµÄÄêÁä");
+	}
+	
+
+}

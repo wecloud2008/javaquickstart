@@ -1,0 +1,28 @@
+package hello;
+
+import java.util.Scanner;
+
+public class StringOperator{
+
+	//字符串变量
+	public static void main(String[] args) {
+		
+		Scanner in= new Scanner(System.in);
+		String s1="abc";
+		String s2="abcd";
+		String s3="我是中国人"
+		System.out.println(s1.compareTo(s2));
+		System.out.println(s1.charAt(1));
+		System.out.println("abcd");
+		
+		for(int i=0;i<s1.length();i++)
+		{
+			System.out.println(s1.charAt(i));
+		}
+	
+		
+		
+
+	}
+
+}

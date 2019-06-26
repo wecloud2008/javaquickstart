@@ -1,0 +1,21 @@
+package hello;
+
+import java.util.Scanner;
+
+public class World {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int foot;
+		double inch;
+		
+		Scanner in = new Scanner(System.in);
+		foot = in.nextInt();
+		inch = in.nextInt(); //double =>int
+		System.out.println(10/3);
+		System.out.println("foot="+foot+",inch="+inch);
+		System.out.println((foot+inch/12)*0.3048);
+
+	}
+
+}

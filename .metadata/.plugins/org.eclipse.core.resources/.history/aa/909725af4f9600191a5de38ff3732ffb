@@ -1,0 +1,17 @@
+package hello;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		switch (type)
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+			default:
+		System.out.println("°¡£¬Ê²Ã´°¡");
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package hello;
+
+public class WorkHours {
+
+	public static void main(String[] args) {
+		final double RATE=8.25;
+		final int STANDARD= 40;
+
+	}
+
+}

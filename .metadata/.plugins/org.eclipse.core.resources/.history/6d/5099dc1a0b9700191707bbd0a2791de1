@@ -1,0 +1,39 @@
+package hello;
+
+import java.util.Scanner;
+
+public class ArrayBegin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		int x;
+		int[] numbers = new int[100];//放100个int的数组
+		
+		double sum=0;
+		int cnt =0;
+		x = in.nextInt();
+		while(x!=-1)
+		{
+			numbers[cnt]=x;
+			//number[2]=x;
+			sum+=x;
+			cnt++;
+			x=in.nextInt();
+		}
+		if(cnt>0)
+		{
+			double overage = sum/cnt;
+			for(int i=0;i<cnt;i++)
+			{
+				if(numbers[i]>overage)
+				{
+					System.out.println(numbers[i]);
+				}
+			}
+			System.out.println(sum/cnt);
+		}
+
+	}
+
+}

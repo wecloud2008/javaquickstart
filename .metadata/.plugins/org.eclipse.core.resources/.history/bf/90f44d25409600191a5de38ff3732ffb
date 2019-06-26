@@ -1,0 +1,36 @@
+package hello;
+
+import java.util.Scanner;
+
+public class AutoTickets {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//初始化
+		Scanner in = new Scanner(System.in);
+		
+		//读入投币金额
+		System.out.println("请投笔:");
+		int amount = in.nextInt();
+		
+		System.out.println(amount>=10); //>=关系运算符 
+		
+		/**7>=3+4 所有关系运算符的优先级比算术运算低,但是比赋值高 
+		 **判断是否相等的==和!=的优先级比其他的低
+		 *
+		 * */
+		
+		
+		//打印车票
+		System.out.println("**********************");
+		System.out.println("Java城际铁路专线");
+		System.out.println("无指定座位票");
+		System.out.println("票价：10元");
+		System.out.println("**********************");
+		
+		//计算并打印找零
+		System.out.println("找零:"+(amount-10));
+		
+	}
+
+}

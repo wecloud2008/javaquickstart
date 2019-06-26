@@ -1,0 +1,22 @@
+package hello;
+
+import java.util.Scanner;
+
+public class FunctionDefine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		int m=in.nextInt();
+		int n=in.nextInt();
+		if(m==1)m=2;
+		int cnt=0;
+		int sum=0;
+		for(int i=i=0;i<=n;i++)
+		{
+			
+		}
+
+	}
+
+}

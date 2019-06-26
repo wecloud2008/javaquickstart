@@ -1,0 +1,40 @@
+package hello;
+
+import java.util.Scanner;
+
+public class ArrayBegin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		int x;
+		int[] numbers = new int[100];//定义数组 放100个int的数组
+		
+		double sum=0;
+		int cnt =0;
+		x = in.nextInt();
+		while(x!=-1)
+		{
+			numbers[cnt]=x; //对数组中的元素赋值
+			//number[2]=x;
+			sum+=x;
+			cnt++;
+			x=in.nextInt();
+		}
+		if(cnt>0)
+		{
+			double overage = sum/cnt;
+			for(int i=0;i<cnt;i++) //遍历数组
+			{
+				if(numbers[i]>overage)
+				{
+					System.out.println(numbers[i]); //使用数组
+				}
+			}
+			System.out.println(sum/cnt);
+		}
+		//数组是一种容器 元素个数必须是整数，元素个数必须给出，元素个数可以是变量
+
+	}
+
+}

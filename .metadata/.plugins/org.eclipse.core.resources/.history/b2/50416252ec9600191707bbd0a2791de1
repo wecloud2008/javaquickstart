@@ -1,0 +1,9 @@
+package hello;
+
+public class CalcAverage {
+
+	public static void main(String[] args) {
+//		变量 算法 流程图 程序
+	}
+
+}

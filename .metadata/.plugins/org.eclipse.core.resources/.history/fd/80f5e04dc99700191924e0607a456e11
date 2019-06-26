@@ -1,0 +1,23 @@
+package hello;
+
+import java.util.Scanner;
+
+public class StringOperator{
+
+	//×Ö·û´®±äÁ¿
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		
+		Scanner in = new Scanner(System.in);
+		String a =new String("Hello");
+		System.out.println();
+		
+	
+		
+		
+
+	}
+
+}

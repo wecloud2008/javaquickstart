@@ -1,0 +1,24 @@
+package hello;
+
+import java.util.Scanner;
+
+public class CompareBigSmall {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		int x=0;
+		int y=0;
+		System.out.println("请输入两个数:");
+		int x = in.nextInt();
+		int y = in.nextInt();
+		int max = 0;
+		if(x>y)
+			max=x;
+		else
+			max = y;
+		System.out.println(max);
+
+	}
+
+}

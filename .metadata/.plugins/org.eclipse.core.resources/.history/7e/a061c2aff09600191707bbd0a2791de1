@@ -1,0 +1,6 @@
+package hello;
+
+public class LoopForFactorial {
+	public static void main(String[] args) {
+
+}
