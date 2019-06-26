@@ -1,2 +1,1 @@
-# wecloud
-wecloud
+java lang quick start
